@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="c189.policy"
+        interface="c189.policy.interfaces.IProductSpecific" />
+</layers>
