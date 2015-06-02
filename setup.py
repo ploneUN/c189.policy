@@ -31,6 +31,8 @@ setup(name='c189.policy',
           'collective.grok',
           'plone.app.referenceablebehavior',
           'collective.dexteritytextindexer',
+          'ilo.pledge',
+          'ilo.socialsticker',
 #          'plone.app.multilingual',
 #          'plone.multilingualbehavior',
           # -*- Extra requirements: -*-
