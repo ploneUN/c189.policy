@@ -33,6 +33,7 @@ setup(name='c189.policy',
           'collective.dexteritytextindexer',
           'ilo.pledge',
           'ilo.socialsticker',
+          'collective.setuphelpers',
 #          'plone.app.multilingual',
 #          'plone.multilingualbehavior',
           # -*- Extra requirements: -*-
