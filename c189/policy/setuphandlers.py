@@ -1,5 +1,6 @@
 from collective.grok import gs
 from c189.policy import MessageFactory as _
+from collective.setuphelpers.structure import setupStructure,clearUpSite
 
 @gs.importstep(
     name=u'c189.policy', 
@@ -11,3 +12,7 @@ def setupVarious(context):
     portal = context.getSite()
 
     # do anything here
+    STRUCTURE = [{'title':'Stickers',
+        		'type':'ilo.socialsticker.stickers'}] 
+    setupStructure(portal, STRUCTURE)
+  
