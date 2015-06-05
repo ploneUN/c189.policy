@@ -12,7 +12,7 @@ def setupVarious(context):
     portal = context.getSite()
 
     # do anything here
-    STRUCTURE = [{'title':'Stickers',
-        		'type':'ilo.socialsticker.stickers'}] 
-    setupStructure(portal, STRUCTURE)
+    # STRUCTURE = [{'title':'Stickers',
+    #     		'type':'ilo.socialsticker.stickers'}] 
+    # setupStructure(portal, STRUCTURE)
   

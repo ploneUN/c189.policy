@@ -3,6 +3,6 @@
     <version>1</version>
     <dependencies>
         <dependency>profile-plone.app.dexterity:default</dependency>
-        <dependency>profile-ilo.socialsticker:default</dependency>
+        <!-- <dependency>profile-ilo.socialsticker:default</dependency> -->
     </dependencies>
 </metadata>
