@@ -35,6 +35,8 @@ setup(name='c189.policy',
           'ilo.qa',
           'ilo.socialsticker',
           'collective.setuphelpers',
+          'collective.mailchimp',
+          'Products.PloneFormGen',
 #          'plone.app.multilingual',
 #          'plone.multilingualbehavior',
           # -*- Extra requirements: -*-
