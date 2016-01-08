@@ -1,0 +1,17 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
+    i18n_domain="collective.monkeypatcher">
+
+  <include package="collective.monkeypatcher" />
+  <monkey:patch
+      description='Modify year range for datetime widget'
+      class='plone.formwidget.datetime.base.AbstractDateWidget'
+      original='years_range'
+      replacement='.base.patched_years_range'
+      handler=".base.apply_patched_const"
+  />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</configure>
